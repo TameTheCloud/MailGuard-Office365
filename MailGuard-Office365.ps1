@@ -18,18 +18,12 @@ $UserCredential = (Get-Credential)
 }
 #----------------[ Declarations ]------------------------------------------------------
 #Inbound / Recieve Connector. Add to this list if it changes.
-$MGReceiveConnectorIPs = '70.84.109.196/32',
-'108.168.255.217/32',
+$MGReceiveConnectorIPs = '108.168.255.217/32',
 '108.168.255.216/32',
 '50.23.252.166/32',
 '50.23.246.238/32',
-'174.36.235.195/32',
-'69.16.202.216/32',
-'69.16.202.203/32',
 '203.21.125.33/32',
-'203.21.125.32/32',
-'67.15.24.9/32',
-'67.15.52.7/32'
+'203.21.125.32/32'
 
 $ConnectedtoExchange = $null
 $ConnectorsCreated = $null
